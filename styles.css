@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f6ff;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 1vw;
+  grid-row-gap: 1vw;
+  min-height: 100vh;
+  margin: 2vw 5vw 5vw 5vw;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card {
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3vw;
+  background-color: #fff;
+}
+
+.head {
+  margin: 1vw 0;
+}
+
+.dog-img {
+  width: 200px;
+}
